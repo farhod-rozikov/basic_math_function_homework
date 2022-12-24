@@ -1,3 +1,6 @@
+from unittest import result
+
+
 def main(a, b):
     '''find the absolute value of the difference between a and b. Return it.
     
@@ -8,4 +11,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    result = abs(a - b)
+    return result
+
+print(main(5, 18))
