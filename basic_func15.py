@@ -1,3 +1,6 @@
+from unittest import result
+
+
 def main(a, b):
     '''Find the remainder when a is divided by b and return it.
     
@@ -8,4 +11,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    result = a % b
+    return result
+
+print(main(18, 5))
