@@ -1,3 +1,6 @@
+from unittest import result
+
+
 def main(a, b):
     '''find the floor division of a and b and return it.
     
@@ -8,6 +11,7 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return a // b
+    result = a // b
+    return result
 
 print(main(6, 4))
